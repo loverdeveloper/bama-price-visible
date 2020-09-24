@@ -1,0 +1,14 @@
+{
+  "name": "Bama Price Show",
+  "version": "1.0",
+  "description": "Just show the prices",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bama.ir/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
